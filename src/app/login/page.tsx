@@ -1,6 +1,4 @@
-git add .
-git commit -m "fix: make login page dynamic"
-git push
+ 
  "use client"; // مهم جدًا
 
 import LoginForm from "@/components/Loginform/LoginForm";
