@@ -26,12 +26,11 @@
 
 
 
-
- "use client"; // الصفحة كلها Client Component
+"use client";
 
 import LoginForm from "@/components/Loginform/LoginForm";
 
-// منع prerender → CSR بالكامل
+// منع أي prerender على server → CSR بالكامل
 export const dynamic = "force-dynamic";
 
 export default function Login() {
