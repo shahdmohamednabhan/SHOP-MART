@@ -66,20 +66,11 @@ export interface CartResponse {
     quantity: number;
   }>;
 }
-
-// export interface CartRes {
-//   status: string
-//   numOfCartItems: number
-//   data: {
-//     _id: string
-//     products: any[]
-//     totalCartPrice: number
-     
-//   }
+ 
 export interface CartRes {
   status: string
   numOfCartItems: number
-  cartId: string   // ✨ ضيفي ده
+  cartId: string    
   data: {
     _id: string
     products: any[]

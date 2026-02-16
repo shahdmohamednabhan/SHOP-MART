@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { Heart } from "lucide-react";
+// import { Heart } from "lucide-react";
 import {
   Card,
   CardHeader,
@@ -14,8 +14,8 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import AddToCart from "@/components/AddToCart";
-import { getServerSession } from "next-auth";
-import { authOption } from "@/auth";
+// import { getServerSession } from "next-auth";
+// import { authOption } from "@/auth";
 
 interface Product {
   _id: string;
